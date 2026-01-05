@@ -11,6 +11,7 @@ This repository provides software packages in `Matlab`, `Python` and `R` for imp
 
 
 The key statistic is defined as
+
 $$
 H(Y;\mathbf{K}_\ell)_t^n:=\min_{k_i\in\mathbf{K}}H(Y;k_i)_t^n.
 $$
