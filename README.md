@@ -1,7 +1,7 @@
 # minimac: Minimum Multi-horizon Autocovariances
 ## The Multi-Horizon Test for Market Frictions
 
-This repository provides statistical packages (in `Matlab`, `Python` and `R`) to implement the test developed by Z. Merrick Li and Xiye Yang (2025), "Multi-Horizon Test for Market Frictions" (<DOI: to be filled>). The method tests for market frictions that cause transitory deviations of observed asset prices from their underlying efficient values. It relies on joint inference of return covariances across multiple horizons.
+This repository provides statistical packages (in `Matlab`, `Python` and `R`) to implement the test developed by Z. Merrick Li and Xiye Yang (2026), "Multi-Horizon Test for Market Frictions" (<https://doi.org/10.1016/j.jeconom.2025.106171>). The method tests for market frictions that cause transitory deviations of observed asset prices from their underlying efficient values. It relies on joint inference of return covariances across multiple horizons.
 
 The minimum statistic is defined as
 
