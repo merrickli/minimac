@@ -1,7 +1,7 @@
 # minimac: Minimum Multi-horizon Autocovariances
 ## The Multi-Horizon Test for Market Frictions
 
-This repository provides statistical packages (in `Matlab`, `Python` and `R`) to implement the test developed by Z. Merrick Li and Xiye Yang (2026), [Multi-Horizon Test for Market Frictions](https://doi.org/10.1016/j.jeconom.2025.106171). 
+This repository provides software packages in `Matlab`, `Python` and `R` for implementing the statistical test developed in [Multi-Horizon Test for Market Frictions](https://doi.org/10.1016/j.jeconom.2025.106171), published in the *Journal of Econometrics*. 
 
 **What the test can do:**
   - Check whether intraday prices are relatively **free of microstructure noise**.
