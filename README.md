@@ -3,7 +3,7 @@
 
 This repository provides software packages in `Matlab`, `Python` and `R` for implementing the statistical test developed in [Multi-Horizon Test for Market Frictions](https://doi.org/10.1016/j.jeconom.2025.106171), published in the *Journal of Econometrics*. 
 
-**What the test can do:**
+## What the test can do
   - Check whether intraday prices are relatively **free of microstructure noise**.
   - Diagnose whether the underlying return series is **uncorrelated** or exhibits serial dependence.
   - Detect persistent returns driven by large drifts or **drift bursts**.
