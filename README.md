@@ -19,10 +19,6 @@ $$
 where $\mathbf{K}_\ell = \{1,2,\ldots,2^\ell\},\ \ell = 0,1,2,3$ and the standardized single-horizon testing statistic
 
 $$
-H(Y; k)^n_t := \frac{F(Y; k)^n_t}{\sqrt{\Phi_k Q(Y)^n_t}}
-$$
-
-$$
 H(Y;k)_t^n:=\frac{F(Y;k)_t^n}{\sqrt{\Phi_k\:Q(Y)_t^n}}
 $$
 is derived from
