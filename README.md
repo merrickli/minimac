@@ -19,12 +19,19 @@ $$
 F(Y;k)_t^n:=\frac{1}{2k}\sum_{i=k+1}^{n_t-k}f(Y;k)_i^n,\quad f(Y;k)_i^n:=(Y_i^n-Y_{i-k}^n)(Y_{i+k}^n-Y_i^n),\quad \Phi_k:=\frac16(k+\frac1{2k}), \quad Q(Y)_t^n:=\sum_{i=2}^{n_t-1}(f(Y;1)_i^n)^2
 $$
 
+**What the test can do:**
+  - Check whether intraday prices are relatively **free of microstructure noise**.
+  - Diagnose whether the underlying return series is **uncorrelated** or exhibits serial dependence.
+  - Detect persistent returns driven by large drifts or **drift bursts**.
+  - Outperforms modern **variance ratio** and **portmanteau tests**.
+
 ## Getting Started
 
 There are 3 folders in the directory:
 
 - In the `./MATLAB` folder,  a function script `minimac.m` that depends on `cvs.mat` table and a test script `test.m` are provided. 
-- Similarly, each of `./R` and `./Python` contains a corresponding function script that depends on `cvs.csv` table and a test script/ipynb. 
+- Similarly, each of `./R` and `./Python` contains a corresponding function script that depends on `cvs.csv` table and a test script/ipynb.
+  
 
 ## Usage and Examples
 
