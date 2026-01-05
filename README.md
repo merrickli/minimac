@@ -12,10 +12,15 @@ This repository provides software packages in `Matlab`, `Python` and `R` for imp
 
 The key statistic is defined as
 
+$$ 
+H(Y;\mathbf{K}_\ell)^n_t := \min_{k_j \in \mathbf{K}_\ell} H(Y;k_j)^n_t,
 $$
-H(Y;\mathbf{K}_\ell)_t^n:=\min_{k_i\in\mathbf{K}}H(Y;k_i)_t^n.
+
+where $\mathbf{K}_\ell = \{1,2,\ldots,2^\ell\},\ \ell = 0,1,2,3$ and the standardized single-horizon testing statistic
+
 $$
-where $\mathbf{K}_\ell=\{1,2,...,2^\ell\},\;\ell=0,1,2,3$ and the standardized single-horizon testing statistic
+H(Y; k)^n_t := \frac{F(Y; k)^n_t}{\sqrt{\Phi_k Q(Y)^n_t}}
+$$
 
 $$
 H(Y;k)_t^n:=\frac{F(Y;k)_t^n}{\sqrt{\Phi_k\:Q(Y)_t^n}}
