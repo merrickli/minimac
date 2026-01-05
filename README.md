@@ -1,14 +1,19 @@
 # minimac: Minimum Multi-horizon Autocovariances
 ## The Multi-Horizon Test for Market Frictions
 
-This repository provides statistical packages (in `Matlab`, `Python` and `R`) to implement the test developed by Z. Merrick Li and Xiye Yang (2026), [Multi-Horizon Test for Market Frictions](https://doi.org/10.1016/j.jeconom.2025.106171). The method tests for market frictions that cause transitory deviations of observed asset prices from their underlying efficient values. It relies on joint inference of return covariances across multiple horizons.
+This repository provides statistical packages (in `Matlab`, `Python` and `R`) to implement the test developed by Z. Merrick Li and Xiye Yang (2026), [Multi-Horizon Test for Market Frictions](https://doi.org/10.1016/j.jeconom.2025.106171). 
 
-The minimum statistic is defined as
+**What the test can do:**
+  - Check whether intraday prices are relatively **free of microstructure noise**.
+  - Diagnose whether the underlying return series is **uncorrelated** or exhibits serial dependence.
+  - Detect persistent returns driven by large drifts or **drift bursts**.
+  - Outperforms modern **variance ratio** and **portmanteau tests**.
 
+
+The key statistic is defined as
 $$
 H(Y;\mathbf{K}_\ell)_t^n:=\min_{k_i\in\mathbf{K}}H(Y;k_i)_t^n.
 $$
-
 where $\mathbf{K}_\ell=\{1,2,...,2^\ell\},\;\ell=0,1,2,3$ and the standardized single-horizon testing statistic
 
 $$
@@ -18,12 +23,6 @@ is derived from
 $$
 F(Y;k)_t^n:=\frac{1}{2k}\sum_{i=k+1}^{n_t-k}f(Y;k)_i^n,\quad f(Y;k)_i^n:=(Y_i^n-Y_{i-k}^n)(Y_{i+k}^n-Y_i^n),\quad \Phi_k:=\frac16(k+\frac1{2k}), \quad Q(Y)_t^n:=\sum_{i=2}^{n_t-1}(f(Y;1)_i^n)^2
 $$
-
-**What the test can do:**
-  - Check whether intraday prices are relatively **free of microstructure noise**.
-  - Diagnose whether the underlying return series is **uncorrelated** or exhibits serial dependence.
-  - Detect persistent returns driven by large drifts or **drift bursts**.
-  - Outperforms modern **variance ratio** and **portmanteau tests**.
 
 ## Getting Started
 
