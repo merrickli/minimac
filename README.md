@@ -5,7 +5,7 @@ This repository provides software packages in `Matlab`, `Python` and `R` for imp
 
 ## What the test can do
   - Check whether intraday prices are relatively **free of microstructure noise**.
-  - Diagnose whether the underlying return series is **uncorrelated** or exhibits serial dependence.
+  - Diagnose whether the underlying returns are **uncorrelated**.
   - Detect persistent returns driven by large drifts or **drift bursts**.
   - Outperforms modern **variance ratio** and **portmanteau tests**.
 
